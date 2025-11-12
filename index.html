@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>App de Serviço de Campo</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'brand-blue': {
+                'DEFAULT': '#007AFF',
+                'light': '#EBF5FF',
+                'dark': '#0056b3',
+              },
+              'brand-green': {
+                'DEFAULT': '#34C759',
+                'light': '#EAF9EC',
+              },
+              'brand-yellow': {
+                'DEFAULT': '#FFCC00',
+                'light': '#FFF9E5',
+              },
+              'brand-orange': {
+                'DEFAULT': '#FF9500',
+                'light': '#FFF4E5',
+              },
+              'brand-red': {
+                'DEFAULT': '#FF3B30',
+                'light': '#FFEBEA',
+              },
+              'brand-gray': {
+                '100': '#F2F2F7',
+                '200': '#E5E5EA',
+                '300': '#D1D1D6',
+                '400': '#C7C7CC',
+                '500': '#AEAEB2',
+                '600': '#8E8E93',
+                '700': '#636366',
+                '800': '#3A3A3C',
+                '900': '#1C1C1E',
+              }
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

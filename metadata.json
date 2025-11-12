@@ -1,0 +1,5 @@
+{
+  "name": "App de Serviço de Campo",
+  "description": "Uma aplicação completa para técnicos de serviço de campo gerenciarem ordens de serviço, equipamentos de clientes e suas tarefas diárias de forma eficiente. O aplicativo oferece visualizações detalhadas de ordens de serviço, histórico de equipamentos e informações do cliente, otimizando todo o processo de serviço, desde a atribuição até a conclusão.",
+  "requestFramePermissions": []
+}
